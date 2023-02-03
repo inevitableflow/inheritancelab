@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace inheritancelab
 {
-    internal class Employee
+    public class Employee
     {
-        public Employee()
-        {
         public string id { get; set; } = "";
         public string name { get; set; } = "";
         public string address { get; set; } = "";
@@ -18,6 +16,8 @@ namespace inheritancelab
         public string dob { get; set; } = "";
         public string dept { get; set; } = "";
 
+        public Employee()
+        {
         }
     }
 }
