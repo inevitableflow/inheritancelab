@@ -7,13 +7,13 @@ using inheritancelab;
         public void TestDefaultAttributeValues()
         {
         Employee employee = new Employee();
-        Assert.AreEqual("", employee.id);
-        Assert.AreEqual("", employee.name);
-        Assert.AreEqual("", employee.address);
-        Assert.AreEqual("", employee.phone);
-        Assert.AreEqual(0,  employee.sin);
-        Assert.AreEqual("", employee.dob);
-        Assert.AreEqual("", employee.dept);
+        Assert.AreEqual("", employee.ID);
+        Assert.AreEqual("", employee.Name);
+        Assert.AreEqual("", employee.Address);
+        Assert.AreEqual("", employee.Phone);
+        Assert.AreEqual(0,  employee.SIN);
+        Assert.AreEqual("", employee.DOB);
+        Assert.AreEqual("", employee.Dept);
 
     }
 }

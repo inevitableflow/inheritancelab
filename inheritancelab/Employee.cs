@@ -8,13 +8,13 @@ namespace inheritancelab
 {
     public class Employee
     {
-        public string id { get; set; } = "";
-        public string name { get; set; } = "";
-        public string address { get; set; } = "";
-        public string phone { get; set; } = "";
-        public long sin { get; set; } = 0;
-        public string dob { get; set; } = "";
-        public string dept { get; set; } = "";
+        public string ID { get; set; } = "";
+        public string Name { get; set; } = "";
+        public string Address { get; set; } = "";
+        public string Phone { get; set; } = "";
+        public long SIN { get; set; } = 0;
+        public string DOB { get; set; } = "";
+        public string Dept { get; set; } = "";
 
         public Employee()
         {
