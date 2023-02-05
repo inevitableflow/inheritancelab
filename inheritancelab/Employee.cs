@@ -16,8 +16,20 @@ namespace inheritancelab
         public string DOB { get; set; } = "";
         public string Dept { get; set; } = "";
 
-        public Employee()
+        public static Employee Parse(string s)
         {
+            string[] args = s.Split(':');
+
+            Employee employee = new Employee();
+            employee.ID = args[0];
+            employee.Name = args[1];
+            employee.Address = args[2];
+            employee.Phone = args[3];
+            employee.SIN = long.Parse(args[4]);
+            employee.DOB = args[5];
+            employee.Dept = args[6];
+
+            return employee;
         }
     }
 }
