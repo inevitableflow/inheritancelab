@@ -1,6 +1,6 @@
 namespace inheritancelabtest;
 using inheritancelab;
-    [TestClass]
+[TestClass]
 public class EmployeeTest
 {
     [TestMethod]

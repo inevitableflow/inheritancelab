@@ -16,6 +16,10 @@ namespace inheritancelab
         public string DOB { get; set; } = "";
         public string Dept { get; set; } = "";
 
+        public virtual double GetPay()
+        {
+            return 0;
+        }
         public static Employee Parse(string s)
         {
             string[] args = s.Split(':');
